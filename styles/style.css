@@ -1,0 +1,194 @@
+/* Default Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Shared Style */
+
+.display-flex {
+    display: flex;
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+section{
+    margin-top: 130px;
+}
+
+.btn-primary{
+    border: none;
+    background: rgb(224, 44, 109);
+}
+
+
+/* dark 1 */
+.dark-1{
+    color: rgb(58, 58, 58);
+}
+
+
+/* dark-2 */
+.dark-2{
+    color: rgb(24, 25, 31);
+}
+
+
+/* dark-3 */
+.dark-3{
+    color: rgb(120, 120, 133);
+}
+/* header section style */
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* navbar style*/
+.nav-container{
+    margin-top: 60px;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.none-1{
+    display: none;
+}
+
+.brand{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+/* banner section style */
+
+.banner-container{
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    text-align: left;
+    justify-content: center;
+    padding: 50px 0;
+    max-width: 600px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-subtitle{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.btn{
+    padding: 12px 24px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border-radius: 41px;
+}
+
+.camera-image img{
+    width: 100%;
+    margin: 50px 0;
+}
+
+.camera-image{
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width: 500px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+
+
+/* responsive media query */
+
+@media screen and (max-width: 576px){
+    .navbar{
+        justify-content: space-between;
+    }
+    .none{
+        display: none;
+    }
+    .none-1{
+        display: block;
+    }
+    .brand{
+        font-size: 1.25rem;
+    }
+
+    .nav-link{
+        font-size: 1rem;
+    }
+    .nav-links 
+    {
+        flex-direction: column;
+    }
+
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .camera-image img{
+        width: 90%;
+        margin: 0 auto;
+        margin-left: 15px;
+    }
+    .camera-image{
+        margin: auto;
+    }
+    
+}
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .navbar{
+        justify-content: space-between;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        text-align: center;
+        justify-content: center;
+    }
+    .camera-image img{
+        margin: 0 auto;
+        margin-left: 15px;
+    }
+    .camera-image{
+        margin: auto;
+    }
+}
