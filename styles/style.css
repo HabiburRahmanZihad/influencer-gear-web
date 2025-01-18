@@ -51,6 +51,10 @@ header{
 
 
 /* navbar style*/
+.navbar  .fa-solid{
+    font-size: 2rem;
+}
+
 .nav-container{
     margin-top: 60px;
 }
@@ -264,7 +268,15 @@ header{
     font-weight: 700;
     margin-top: 20px;
 }
+.footer-icon{
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer-icon p{
+    font-size: 2rem;
+}
 
 /* responsive media query */
 
@@ -384,6 +396,7 @@ header{
     }
     .feature-btn{
         margin-top: 20px;
+        margin-bottom: 50px;
     }
     .feature-section-image img{
         width: 100%;
