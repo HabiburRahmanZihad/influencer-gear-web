@@ -211,7 +211,7 @@ header{
     margin-top: 100px;
     gap: 96px;
     padding: 5px;
-    border: 1px solid black;
+    margin-bottom: 100px;
 }
 
 .feature-section-text{
@@ -243,10 +243,27 @@ header{
     color: white;
     padding: 10px 24px 10px 24px;
 }
-.feature-section-image img{
+
+
+
+/* footer section style */
+.footer{
+    background: rgb(10, 8, 38);
+    color: rgb(255, 255, 255);
+    padding: 40px 0;
     width: 100%;
+
 }
 
+.footer-content{
+    text-align: center;
+}
+
+.footer-content h4{
+    font-size: 1.85rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
 
 
 /* responsive media query */
@@ -315,7 +332,9 @@ header{
     .feature-btn{
         margin-top: 60px;
     }
-    
+    .feature-section-image img{
+        width: 100%;
+    }
 }
 
 
@@ -365,6 +384,9 @@ header{
     }
     .feature-btn{
         margin-top: 20px;
+    }
+    .feature-section-image img{
+        width: 100%;
     }
 
     .collection-btn{
